@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+<app-slider></app-slider>
+<app-connect></app-connect>>
+<div class="container general">
+  <div class="row">
+    <div *ngIf=check class="col-md-9">
+      <app-juego1></app-juego1>
+    </div>
+    <div *ngIf=!check class="col-md-3">
+      <app-juego2></app-juego2>
+    </div>
+  </div>
+</div>

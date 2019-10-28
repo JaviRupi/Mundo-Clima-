@@ -1,0 +1,42 @@
+.general {
+  background-color: #00a7ce;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: 0px;
+  margin: 0;
+}
+
+
+.logo-nav > img {
+  width: 100px;
+  height: 100px;
+}
+
+li > a, .navbar-header > a {
+  color: white;
+}
+
+li.active > a {
+  background: transparent;
+  color: white;
+}
+
+.align-nav {
+  display: flex;
+  align-items: center;
+}
+
+li > a:hover, .navbar-header > a:hover, li.active > a:hover {
+  color: black;
+  background-color: transparent;
+}
+
+.nav-txt {
+  margin-left: 20px;
+}
+
+a {
+  transition: all .6s ease;
+}
